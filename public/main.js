@@ -1,3 +1,5 @@
+const socket = io("localhost:3000");
+
 function setup() {
     createCanvas(windowWidth, windowHeight);
 }
